@@ -45,6 +45,7 @@
             <h3>Score multiplier: x{{ multiplier }}</h3>
             <h3>Correct answers: {{ score }}</h3>
           </div>
+          <p style="color:#aaa; margin-top:32px;">Version 0.1.1</p>
         </div>
       </ion-content>
     </ion-page>
@@ -184,6 +185,7 @@ h4 {
   display: flex;
   justify-content: center;
   align-items: center;
+  color:#333;
 }
 .petal {
   height: 50vw;
@@ -220,7 +222,8 @@ h4 {
 }
 
 #container {
-  margin-top: 32px;
+  padding-top: 16px;
+  padding-bottom: 16px;
   text-align: center;
 }
 </style>
